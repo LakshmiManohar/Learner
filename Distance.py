@@ -13,11 +13,12 @@ class Line(object):
         x2,y2 = self.cord2
         return float((y2-y1)/(x2-x1))
 
+
 C1 = (3,2)
 C2 = (8,10)
 x = Line(C1,C2)
-print("The Distance between Co-ordinates:",x.distance())
-print("This Slope Between the Co-ordinates:",x.slope())
+print("The Distance Between Co-ordinates:",x.distance())
+print("Slope Between the Co-ordinates:",x.slope())
 
 
 
