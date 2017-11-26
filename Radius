@@ -16,7 +16,7 @@ class Cyclinder(object):
         SA = Area + 2*3.14159*(r**2)
         return float(SA)
 C = Cyclinder(9,4)
-print("The Volume of the Cylinder",C.volume())
-print("The Surface of the Cylinder",C.surface_area())
+print("The Volume of the Cylinder:",C.volume())
+print("The Surface of the Cylinder:",C.surface_area())
 
 
